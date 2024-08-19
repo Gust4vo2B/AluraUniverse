@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background-color: black;
+    z-index: 5;
+    position: fixed;
+    padding: 4rem 8% 4rem;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header div.container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    color: white ;
+    font-family: "Space Grotesk";
+    font-size: 26px;
+}
+
+.menu a {
+    color: white ;
+    font-family: "Space Grotesk";
+    font-size: 30px;
+    text-decoration: underline transparent;
+    text-decoration-thickness: 2px;
+
+    transition: text-decoration 500ms ease;
+}
+
+.menu a:hover {
+    text-decoration-color: white;
+    color:#21DFD4;
+}
+
+#Messi {
+    height: 700px;
+    background-color: black;
+    align-items: center;
+}
+
+#Messi iframe {
+    margin-top: 250px;
+    margin-left: 370px;
+}
+
+#h2 {
+    height: 200px;
+    background-color: black;
+}
+
+#h2 h2 {
+    font-size: 30px;
+    color: white;
+    font-family: "Space Grotesk";
+    text-align: center;
+    margin-right: 50px;
+}
+
+.categoria {
+    height: 700px;
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos {
+    margin-left: 150px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid rgb(16, 154, 247);
+}
+
+
